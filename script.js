@@ -63,3 +63,4 @@ function clearlist() {
 // zaznaczanie z lewej zeby dzialało
 // kasowanie z prawej zeby działało
 ///test git
+//test branch
