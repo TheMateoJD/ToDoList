@@ -1,0 +1,118 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: 100lvw;
+  height: 100lvh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.maincontainer {
+  width: 60lvw;
+  height: 80lvh;
+  border: 3px solid black;
+  border-radius: 10%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+h1 {
+  font-size: 3rem;
+  padding: 1rem;
+  font-weight: 600;
+}
+
+.inputline {
+  display: flex;
+  flex-direction: row;
+  gap: 0.25rem;
+}
+
+input {
+  font-size: 1.25rem;
+  padding: 0.5rem;
+  width: 45lvw;
+  text-align: center;
+}
+
+input:focus {
+  text-align: start;
+}
+input:focus::-webkit-input-placeholder {
+  color: white;
+}
+
+.addbtn {
+  padding: 10px;
+}
+.list {
+  /* border: 3px solid red; */
+  width: 50lvw;
+  margin-top: 10px;
+}
+
+.el {
+  padding: 0.5rem;
+  /* border: 3px solid blue; */
+  width: 50lvw;
+  display: flex;
+  justify-content: space-between;
+}
+
+.cc {
+  display: flex;
+  flex-direction: row;
+}
+
+.content {
+  padding: 0.25rem;
+  margin-left: 0.5rem;
+  font-size: 1.25rem;
+  width: 42lvw;
+  height: 2rem;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  border-bottom: 1px solid black;
+}
+
+.content:hover {
+  height: auto;
+  overflow: visible;
+  white-space: wrap;
+}
+
+.done {
+  width: 2rem;
+  height: 2rem;
+  font-size: 1.5rem;
+  line-height: 1.5rem;
+  border-radius: 50%;
+  color: white;
+  background-color: white;
+}
+
+.done:hover {
+  color: black;
+}
+
+.remov {
+  width: 2rem;
+  height: 2rem;
+  color: rgba(0, 0, 0, 0.15);
+  background-color: white;
+  border: none;
+}
+
+.remov:hover {
+  border: 2px solid black;
+  border-radius: 2px;
+  color: black;
+  background-color: rgb(240, 240, 240);
+}
