@@ -102,6 +102,16 @@ input:focus::-webkit-input-placeholder {
   color: black;
 }
 
+.donedone {
+  width: 2rem;
+  height: 2rem;
+  font-size: 1.5rem;
+  line-height: 1.5rem;
+  border-radius: 50%;
+  background-color: white;
+  color: black;
+}
+
 .remov {
   width: 2rem;
   height: 2rem;
