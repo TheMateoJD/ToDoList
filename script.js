@@ -62,3 +62,4 @@ function clearlist() {
 // local storage moze?
 // zaznaczanie z lewej zeby dzialało
 // kasowanie z prawej zeby działało
+///test git
