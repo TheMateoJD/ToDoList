@@ -10,23 +10,25 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
+  background-color: #111111;
 }
 
 .maincontainer {
   width: 60lvw;
-  height: 99lvh;
+  height: 80lvh;
   border: 3px solid black;
-  border-radius: 10%;
+  border-radius: 5%;
   display: flex;
   flex-direction: column;
   align-items: center;
-  overflow-y: wrap;
+  background-color: #1a1a1a;
 }
 
 h1 {
   font-size: 3rem;
   padding: 1rem;
   font-weight: 600;
+  color: aliceblue;
 }
 
 .inputline {
@@ -64,6 +66,7 @@ input:focus::-webkit-input-placeholder {
   width: 50lvw;
   display: flex;
   justify-content: space-between;
+  color: aliceblue;
 }
 
 .cc {
@@ -109,8 +112,8 @@ input:focus::-webkit-input-placeholder {
   font-size: 1.5rem;
   line-height: 1.5rem;
   border-radius: 50%;
-  background-color: white;
   color: black;
+  background-color: white;
 }
 
 .remov {
@@ -126,4 +129,17 @@ input:focus::-webkit-input-placeholder {
   border-radius: 2px;
   color: black;
   background-color: rgb(240, 240, 240);
+}
+
+.reset {
+  width: 5rem;
+  height: 2rem;
+  border-radius: 5%;
+  color: aliceblue;
+  background-color: #111111;
+  border: none;
+}
+
+.reset:hover {
+  background-color: #1a1a1a;
 }
